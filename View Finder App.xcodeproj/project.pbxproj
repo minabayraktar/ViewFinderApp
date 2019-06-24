@@ -15,6 +15,7 @@
 		18790C3922C1406900AD4BB3 /* View_Finder_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18790C3822C1406900AD4BB3 /* View_Finder_AppTests.swift */; };
 		18790C4422C1406900AD4BB3 /* View_Finder_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18790C4322C1406900AD4BB3 /* View_Finder_AppUITests.swift */; };
 		18790C5222C14C0400AD4BB3 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18790C5122C14C0400AD4BB3 /* AddPhotoViewController.swift */; };
+		18790C5422C164D900AD4BB3 /* PhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18790C5322C164D900AD4BB3 /* PhotoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		18790C4322C1406900AD4BB3 /* View_Finder_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_Finder_AppUITests.swift; sourceTree = "<group>"; };
 		18790C4522C1406900AD4BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18790C5122C14C0400AD4BB3 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
+		18790C5322C164D900AD4BB3 /* PhotoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				18790C2022C1406800AD4BB3 /* AppDelegate.swift */,
 				18790C2422C1406800AD4BB3 /* Main.storyboard */,
+				18790C5322C164D900AD4BB3 /* PhotoTableViewController.swift */,
 				18790C2A22C1406900AD4BB3 /* Assets.xcassets */,
 				18790C2C22C1406900AD4BB3 /* LaunchScreen.storyboard */,
 				18790C2F22C1406900AD4BB3 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				18790C2922C1406800AD4BB3 /* View_Finder_App.xcdatamodeld in Sources */,
 				18790C5222C14C0400AD4BB3 /* AddPhotoViewController.swift in Sources */,
+				18790C5422C164D900AD4BB3 /* PhotoTableViewController.swift in Sources */,
 				18790C2122C1406800AD4BB3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

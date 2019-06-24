@@ -13,7 +13,7 @@
         <!--View Finder App-->
         <scene sceneID="3Mw-Sh-13t">
             <objects>
-                <tableViewController id="wL6-kG-5rL" sceneMemberID="viewController">
+                <tableViewController id="wL6-kG-5rL" customClass="PhotoTableViewController" customModule="View_Finder_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="t7U-V0-lIo">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -85,6 +85,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="saveTapped:" destination="dMA-v7-pnZ" eventType="touchUpInside" id="erB-hs-tYb"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="CWt-LF-5Ki">
                                 <rect key="frame" x="40" y="89" width="240" height="128"/>
@@ -105,6 +108,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Add New Photo" id="bnj-Ya-ybr"/>
                     <connections>
+                        <outlet property="captionText" destination="oOZ-pk-p1D" id="W6C-ba-GiE"/>
                         <outlet property="imageView" destination="CWt-LF-5Ki" id="42M-JS-iPc"/>
                     </connections>
                 </viewController>

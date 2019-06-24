@@ -14,6 +14,7 @@ UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     @IBOutlet weak var imageView: UIImageView!
     
+    @IBOutlet weak var captionText: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         imagePicker.delegate = self
@@ -26,7 +27,11 @@ UIImagePickerControllerDelegate, UINavigationControllerDelegate {
         present(imagePicker, animated: true, completion: nil)
     }
   
-   
+    @IBAction func saveTapped(_ sender: Any) {
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext{
+    }
+    }
+    
     @IBAction func cameraTapped(_ sender: Any) {
         imagePicker.sourceType = .camera
         present(imagePicker,animated : true, completion: nil)
@@ -51,3 +56,4 @@ UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     */
 
 }
+
